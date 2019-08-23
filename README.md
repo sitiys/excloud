@@ -7,16 +7,7 @@ Document Server and Nextcloud Docker installation will install the preconfigured
 * The latest version of Docker (can be downloaded here: [https://docs.docker.com/engine/installation/](https://docs.docker.com/engine/installation/))
 * Docker compose (can be downloaded here: [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/))
 
-## Installation
-
-1. Get the latest version of this repository running the command:
-
-    ```
-    git clone https://github.com/ONLYOFFICE/docker-onlyoffice-nextcloud
-    cd docker-onlyoffice-nextcloud
-    ```
-
-2. Run Docker Compose:
+Run Docker Compose:
 
     ```
     docker-compose up -d
