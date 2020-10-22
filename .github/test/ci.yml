@@ -19,7 +19,7 @@ jobs:
         KEY: ${{ secrets.SECRET }}
       with:
         source: "."
-        target: "/var/www/mywebsite"
+        target: "/usr/src/vlad/testtask/dist/help_page"
 
     - name: Executing remote command
       uses: appleboy/ssh-action@master
