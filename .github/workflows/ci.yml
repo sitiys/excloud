@@ -22,7 +22,7 @@ jobs:
         target: "/usr/src/vlad/testtask/dist/help_page"
 
     - name: Executing remote command
-      uses: appleboy/ssh-action@master
+      uses: sitiys/excloud@master
       with:
         host: ${{ secrets.HOST }}
         USERNAME: ${{ secrets.USERNAME }}
