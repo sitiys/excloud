@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #make dir
+mkdir -p /home/sitiys
 cd /home/sitiys/
 sudo mkdir docker
 cd docker
@@ -10,6 +11,7 @@ sudo mkdir docker-onlyoffice-nextcloud
 
 #updating system, installing git,docker and docker-compose
 sudo apt update && sudo apt upgrade -y
+sudo apt install python3.7 -y
 sudo apt install nano curl -y
 echo "---------------Starting docker instalation---------------"
 sudo apt install apt-transport-https ca-certificates gnupg-agent software-properties-common -y
